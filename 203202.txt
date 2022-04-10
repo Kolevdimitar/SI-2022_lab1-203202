@@ -1,0 +1,113 @@
+cd Desktop
+cd Softversko
+git clone https://github.com/Kolevdimitar/SI-2022_lab1-203202.git
+git add .
+git commit -m "Add 5 items to the shopping list"
+git commit -a -m "Add quantities to the items"
+git checkout -b branch1
+git checkout -b branch2
+
+logot:
+C:\Users\Dime422\Desktop\Softversko\SI-2022_lab1-203202>git log
+commit e86f3a4e671faebcb1076a8425a82c9b16eab470 (HEAD -> branch2, master, branch1)
+Author: dimitarkolev <DimitarKolev422@gmail.com>
+Date:   Sun Apr 10 22:43:21 2022 +0200
+
+    Add quantities to the items
+
+commit 4d06e2228916b2609128a065df9124307ae79c5e
+Author: dimitarkolev <DimitarKolev422@gmail.com>
+Date:   Sun Apr 10 22:30:23 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 0787afac1fd8a15329f05ebef135fe89040d310c (origin/master, origin/HEAD)
+Author: Kolevdimitar <103080393+Kolevdimitar@users.noreply.github.com>
+Date:   Thu Apr 7 02:33:45 2022 +0200
+
+    Update README.md
+
+commit b2599c1ad03395aebfc915d84c2930d3dfa8aa44
+Author: Kolevdimitar <103080393+Kolevdimitar@users.noreply.github.com>
+Date:   Thu Apr 7 02:33:00 2022 +0200
+
+    Initial commit
+git push -all origin
+git checkout branch1
+git commit -a -m "Change the quantity of item #5"
+git checkout master
+git commit -a -m "Change the quantity of item #2"
+git push --all
+git checkout branch2
+git commit -a -m "Modify #4"
+
+commit 0604adb3c5ec9f739a6277abb4981d457b2084c8 (HEAD -> branch2)
+Author: dimitarkolev <DimitarKolev422@gmail.com>
+commit 0604adb3c5ec9f739a6277abb4981d457b2084c8 (HEAD -> branch2)
+Author: dimitarkolev <DimitarKolev422@gmail.com>
+Date:   Sun Apr 10 23:22:34 2022 +0200
+
+    Modify item #4
+
+commit e86f3a4e671faebcb1076a8425a82c9b16eab470 (origin/branch2)
+Author: dimitarkolev <DimitarKolev422@gmail.com>
+Date:   Sun Apr 10 22:43:21 2022 +0200
+
+    Add quantities to the items
+
+commit 4d06e2228916b2609128a065df9124307ae79c5e
+Author: dimitarkolev <DimitarKolev422@gmail.com>
+Date:   Sun Apr 10 22:30:23 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 0787afac1fd8a15329f05ebef135fe89040d310c
+Author: Kolevdimitar <103080393+Kolevdimitar@users.noreply.github.com>
+Date:   Thu Apr 7 02:33:45 2022 +0200
+
+    Update README.md
+
+
+git commit -a -m "add item #6"
+git rebase -i --root
+
+
+
+
+C:\Users\Dime422\Desktop\Softversko\SI-2022_lab1-203202>git log
+commit 0d1e666da49071d234f08906148b788d2fdd9835 (HEAD -> branch2)
+Author: dimitarkolev <DimitarKolev422@gmail.com>
+Date:   Mon Apr 11 00:23:15 2022 +0200
+# Please enter the commit message for your changes. Lines starting
+    Modify item #4 and add item #6 empty message aborts the commit.
+#
+commit 4d06e2228916b2609128a065df9124307ae79c5e
+Author: dimitarkolev <DimitarKolev422@gmail.com>
+Date:   Sun Apr 10 22:30:23 2022 +0200 f2b0ae4
+# Last commands done (5 commands done):
+    Add 5 items to the shopping list
+#    squash 3cf622e add item #6
+commit 0787afac1fd8a15329f05ebef135fe89040d310c
+Author: Kolevdimitar <103080393+Kolevdimitar@users.noreply.github.com>
+Date:   Thu Apr 7 02:33:45 2022 +0200
+# Changes to be committed:
+    Update README.mdshopping_list.txt
+#
+commit b2599c1ad03395aebfc915d84c2930d3dfa8aa44
+Author: Kolevdimitar <103080393+Kolevdimitar@users.noreply.github.com>
+Date:   Thu Apr 7 02:33:00 2022 +0200022_lab1-203202/.git/COMMIT_EDITMSG[+] [unix] (00:25 11/04/2022)6,0-1 All
+<sers/Dime422/Desktop/Softversko/SI-2022_lab1-203202/.git/COMMIT_EDITMSG" [unix] 24L, 522B written
+    Initial commit
+
+кога направив гит лог ги има и оние линии со тараба што треба да се закоментирани...не можев да откријам зошто
+
+git checkout master
+git merge branch1
+
+има конфликт со спојувањето на втората гранка,го изменуваме .txt фајлот и правиме add и commit
+
+git add .
+git commit -m "Merge branch2"
+
+git commit -a -m "dokumentacija"
+git push --all
