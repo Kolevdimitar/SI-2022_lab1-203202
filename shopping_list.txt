@@ -1,5 +1,7 @@
 Tomatoes x2
-Bananas x5
+Bananas x3
 Chocolate x3
-Candy x4
-Bread x4
+Tuna x4
+Bread x2
+Cookies x3
+
