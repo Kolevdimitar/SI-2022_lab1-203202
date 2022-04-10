@@ -1,5 +1,5 @@
-Tomatoes
-Bananas
-Chocolate
-Candy
-Bread
+Tomatoes x2
+Bananas x3
+Chocolate x3
+Candy x4
+Bread x2
