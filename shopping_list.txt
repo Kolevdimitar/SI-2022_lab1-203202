@@ -2,4 +2,4 @@ Tomatoes x2
 Bananas x5
 Chocolate x3
 Candy x4
-Bread x2
+Bread x4
